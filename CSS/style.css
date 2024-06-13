@@ -2,33 +2,35 @@
 
 
 
-*{
+* {
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
-    font-family:"Assistant", sans-serif;
+    font-family: "Assistant", sans-serif;
 }
-a{
+
+a {
     text-decoration: none;
     color: inherit;
     font-weight: 0;
-    
+
 }
-hr{
+
+hr {
     margin-top: 10px !important;
 }
 
 /* header part start */
 
-body{
+body {
     position: relative;
 }
 
-.bell-logo{
+.bell-logo {
     width: 40px;
     height: 40px;
-   border-radius: 100%;
-   background-color: #1d85fc;
+    border-radius: 100%;
+    background-color: #1d85fc;
     position: absolute;
     position: fixed;
     right: 20px;
@@ -36,24 +38,25 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 
-header{
-    width:100%;
+header {
+    width: 100%;
     height: 80px;
     box-shadow: 0 4px 12px 0 rgba(0, 0, 0, .05);
     background-color: #fff;
     display: flex;
     align-items: center;
-    position:sticky;
+    position: sticky;
     top: 0px;
-   
-    
-    
+
+
+
 }
-.logo{
+
+.logo {
     width: 70px;
     height: 36px;
     background-image: url(../Images/MyntraWebSprite_27_01_2021.png);
@@ -65,13 +68,13 @@ header{
 
 }
 
-.nav-list{
+.nav-list {
     display: flex;
     position: relative;
 
 }
 
-.new{
+.new {
     width: 22px;
     height: 13px;
     text-transform: uppercase;
@@ -80,26 +83,30 @@ header{
     color: #ff3f6c;
     position: absolute;
     top: 0px;
-    left:570px;
+    left: 570px;
 
 }
-nav{
+
+nav {
     position: relative;
 
 }
-.nav-list li{
+
+.nav-list li {
     list-style: none;
-    
+
 }
-.nav-list a{
-    color:#282c3f;
+
+.nav-list a {
+    color: #282c3f;
     font-size: 14px;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: .3px;
 
 }
-.Mega-menu{
+
+.Mega-menu {
     width: 1080px;
     height: 440px;
     position: absolute;
@@ -111,9 +118,10 @@ nav{
     cursor: pointer;
     opacity: 0;
     visibility: hidden;
-    
+
 }
-.mega-topleft{
+
+.mega-topleft {
     width: 216px;
     height: 440px;
     padding-left: 25px;
@@ -121,20 +129,22 @@ nav{
     flex-direction: column;
 
 }
-.Topwear{
+
+.Topwear {
     width: 100%;
     height: 39px;
     padding-top: 10px;
-    
+
 }
-.Topwear> a{
+
+.Topwear>a {
     color: #ff3f6c;
     text-transform: capitalize;
     font-size: 14px;
 }
 
-.studio-mega{
-    width:545px;
+.studio-mega {
+    width: 545px;
     height: 454px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
     position: absolute;
@@ -148,27 +158,30 @@ nav{
     visibility: hidden;
 }
 
-.studio-mega> img{
-  width: 103px;
-  height: 29px;
-  margin-top: 20px;
+.studio-mega>img {
+    width: 103px;
+    height: 29px;
+    margin-top: 20px;
 
 
 }
-.studio-mega> h4{
+
+.studio-mega>h4 {
     font-size: 16px;
     font-weight: normal;
     color: #535766;
     margin-top: 10px;
 }
-.Studio-imgbottom> img{
+
+.Studio-imgbottom>img {
     width: 514px;
     height: 274px;
     margin-top: 30px;
     margin-left: 15px;
 
 }
-.Studio-imgbottom> a{
+
+.Studio-imgbottom>a {
     width: 195px;
     height: 42px;
     border: 1px solid #d4d5d8;
@@ -183,16 +196,19 @@ nav{
 }
 
 
-.Womens-pages #color> a{
-    color:#fb56c1;
+.Womens-pages #color>a {
+    color: #fb56c1;
 }
-.Kids-pages #Kids-color> a{
-    color:#f26a10
+
+.Kids-pages #Kids-color>a {
+    color: #f26a10
 }
-.Home-pages #color> a{
-    color:#f2c210;
+
+.Home-pages #color>a {
+    color: #f2c210;
 }
-.Beauty-pages #color a{
+
+.Beauty-pages #color a {
     color: #0db7af;
 }
 
@@ -200,7 +216,7 @@ nav{
 
 
 
-.Topwear-list> li{
+.Topwear-list>li {
     color: #282c3f;
     margin-left: 0;
     font-weight: 500;
@@ -209,44 +225,50 @@ nav{
 }
 
 
-.Mens-pages:hover .Mega-menu{
+.Mens-pages:hover .Mega-menu {
     opacity: 1;
     visibility: visible;
-    position:fixed;
+    position: fixed;
 
-    
+
 }
-.Womens-pages:hover .Mega-menu{
+
+.Womens-pages:hover .Mega-menu {
     opacity: 1;
     visibility: visible;
     position: fixed;
 
 }
-.Kids-pages:hover .Mega-menu{
+
+.Kids-pages:hover .Mega-menu {
     opacity: 1;
     visibility: visible;
     position: fixed;
 
 }
-.Home-pages:hover .Mega-menu{
+
+.Home-pages:hover .Mega-menu {
     opacity: 1;
     visibility: visible;
     position: fixed;
 
 }
-.Beauty-pages:hover .Mega-menu{
+
+.Beauty-pages:hover .Mega-menu {
     opacity: 1;
     visibility: visible;
     position: fixed;
 
 }
-.Studio-pages:hover .Mega-menu{
+
+.Studio-pages:hover .Mega-menu {
     opacity: 1;
     visibility: visible;
     position: fixed;
 
 }
-.Studio-pages:hover .studio-mega{
+
+.Studio-pages:hover .studio-mega {
     visibility: visible;
     opacity: 1;
 }
@@ -255,7 +277,7 @@ nav{
 
 
 
-.input-box{
+.input-box {
     width: 520px;
     height: 40px;
     margin-left: 100px;
@@ -268,165 +290,184 @@ nav{
     border-radius: 4px 4px 4px 4px;
 }
 
-.input-box i{
+.input-box i {
     margin-left: 10px;
 }
-.input-box input{
+
+.input-box input {
     flex-grow: 1;
     border: none;
-    background:transparent;
+    background: transparent;
 }
-.input-box input:focus{
+
+.input-box input:focus {
     outline: none;
 }
 
-.head-right{
+.head-right {
     width: 190px;
     height: 40px;
-    font-size:12px;
+    font-size: 12px;
     display: flex;
     gap: 20px;
     margin-left: 20px;
 
 
 }
-.image-border{
+
+.image-border {
     width: 35px;
     height: 60px;
     margin-top: 5px;
 }
-.image-border> b{
+
+.image-border>b {
     width: 35px;
     font-size: 12px;
     margin-left: 0px;
 
 }
-.image{
+
+.image {
     width: 25px;
     height: 20px;
     background-image: url(../Images/MyntraWebSprite_27_01_2021.png);
     background-size: 1404px 105px;
     background-position: -298px -56px;
     margin-left: 4px;
-   
+
 }
 
-.img2{
+.img2 {
     width: 17px;
     height: 22px;
     background-position: -315px -187px;
-   
+
 }
-.img3{
+
+.img3 {
     width: 22px;
     height: 22px;
-    background-position:-341px -56px;
+    background-position: -341px -56px;
 }
+
 /* header part complete */
 /* 
 middle part start */
- 
 
-.middle-top{
+
+.middle-top {
     width: 100%;
     height: 90px;
- 
-    
+
+
 }
-.sharukh{
+
+.sharukh {
     width: 100%;
     height: 390px;
     display: flex;
 }
 
-.Lakme{
+.Lakme {
     width: 100%;
 }
-.Coupon{
+
+.Coupon {
     width: 100%;
-    
+
 }
-.Flat-product{
+
+.Flat-product {
     display: flex;
     width: 100%;
     height: 117px;
 }
-.omg-image{
+
+.omg-image {
     width: 100%;
     height: 132px;
     display: flex;
-    
+
 }
-.box{
+
+.box {
     width: 100%;
     height: 361px;
     margin-top: 10px;
     display: flex;
 }
-.shop-Category{
+
+.shop-Category {
     width: 100%;
     height: 85px;
-    
+
 
 }
-.Parent-boxes{
+
+.Parent-boxes {
     width: 100%;
     height: 1500px;
     display: flex;
     flex-wrap: wrap;
     margin-top: 40px;
-    
+
 }
-.boxes{
-    width:10%;
+
+.boxes {
+    width: 10%;
     height: 250px;
 }
 
 
-.Line-white{
+.Line-white {
     width: 100%;
     height: 35px;
 
 }
-.More-knock{
+
+.More-knock {
     width: 100%;
     height: 200px;
 }
 
-footer{
+footer {
     width: 100%;
     height: 3515px;
 }
 
-.foot-top{
+.foot-top {
     width: 1080px;
     height: 3512px;
     margin: auto;
-  
-    
+
+
 }
-.foot-1{
+
+.foot-1 {
     width: 1080px;
     height: 525px;
     display: flex;
 }
 
-.fot-left{
+.fot-left {
     width: 130px;
     height: 470px;
     margin-top: 100px;
-    
-    
+
+
 }
-.title{
+
+.title {
     height: 30px;
     width: 100%;
     font-size: 12px;
     font-weight: bold;
-    color:rgba(0, 0, 0, 0.945);
+    color: rgba(0, 0, 0, 0.945);
     text-transform: uppercase;
 }
-.t-child> a{
+
+.t-child>a {
     text-transform: capitalize;
     font-size: 15px;
     display: flex;
@@ -438,64 +479,74 @@ footer{
 
 
 }
-.fot-left2{
+
+.fot-left2 {
     width: 175px;
     height: 425px;
     margin-left: 30px;
     margin-top: 100px;
-    
+
 
 }
-.play-google{
+
+.play-google {
     width: 380px;
     height: 175px;
     margin-top: 100px;
 
 }
-.Img-parent{
+
+.Img-parent {
     width: 282px;
     height: 45px;
     display: flex;
 }
-.img-ch1{
+
+.img-ch1 {
     width: 50%;
     height: 45px;
-    
+
 }
-.img-ch2{
+
+.img-ch2 {
     width: 50%;
     height: 45px;
     margin-left: 10px;
-    
+
 }
-.title-google{
+
+.title-google {
     height: 30px;
     width: 100%;
     font-size: 12px;
     font-weight: bold;
-    color:rgba(0, 0, 0, 0.945);
+    color: rgba(0, 0, 0, 0.945);
     text-transform: uppercase;
     margin-top: 25px;
 
 }
-.social-lnk{
+
+.social-lnk {
     width: 100px;
     height: 21px;
     display: flex;
     gap: 8px;
 }
-.social-lnk img{
+
+.social-lnk img {
     width: 20px;
     height: 20px;
 
 }
-.Return-contain{
+
+.Return-contain {
     width: 250px;
     height: 159px;
     margin-top: 100px;
-  
+
 }
-.Return-top{
+
+.Return-top {
     width: 100%;
     height: 42px;
     font-size: 16px;
@@ -505,31 +556,32 @@ footer{
     gap: 5px;
 
 }
-.Return-top strong{
+
+.Return-top strong {
     color: #282c3f;
 }
 
-.Return-bottom strong{
+.Return-bottom strong {
     color: #282c3f;
 }
 
 
 
-.Return-bottom{
+.Return-bottom {
     width: 100%;
     height: 42px;
     display: flex;
     font-size: 16px;
     color: #696b79;
     gap: 5px;
-    
 
-   
-    
+
+
+
 }
 
 
-.foot-top2{
+.foot-top2 {
     width: 1080px;
     height: 131px;
     margin-top: 20px;
@@ -537,14 +589,16 @@ footer{
 
 
 }
-.main-popular{
+
+.main-popular {
     width: 1080px;
     height: 15px;
     display: flex;
     margin-bottom: 20px;
 
 }
-.popular{
+
+.popular {
     width: 110px;
     height: 15px;
     font-size: 12px;
@@ -554,18 +608,21 @@ footer{
 
 
 }
-.popular-line hr{
+
+.popular-line hr {
     width: 970px;
     height: 1px;
     margin-top: 8px;
 
 
 }
-.popular-links{
+
+.popular-links {
     width: 1080px;
     height: 100px;
 }
-.popular-links> a{
+
+.popular-links>a {
     font-size: 15px;
     border-right: 1px solid #696b79b6;
     color: #696B79;
@@ -574,16 +631,17 @@ footer{
     font-weight: normal;
 }
 
-.foot-top3{
+.foot-top3 {
     width: 1080px;
     height: 21px;
     margin-top: 20px;
     display: flex;
     gap: 80px;
     margin-bottom: 30px;
-    
+
 }
-.box1{
+
+.box1 {
     width: 304px;
     height: 21px;
     color: #696B79;
@@ -593,55 +651,63 @@ footer{
 
 }
 
-.foot-top4{
+.foot-top4 {
     width: 1080px;
     height: 201px;
-    margin: 15px 0 0 ;
+    margin: 15px 0 0;
 }
-.Register{
-    width:100%;
+
+.Register {
+    width: 100%;
     height: 20px;
     margin: 15px 0;
 }
-.Register p{
+
+.Register p {
     color: #282c3f;
     font-weight: 700;
     font-size: 15px;
 }
-.Register-1{
+
+.Register-1 {
     width: 100%;
     height: 120px;
     display: flex;
 }
-.Register-1left{
+
+.Register-1left {
     width: 70%;
     height: 120px;
     color: #94969f;
     font-size: 15px;
 
 }
-.Register-1right{
+
+.Register-1right {
     width: 303px;
     height: 40px;
     margin-top: 80px;
     margin-right: 90px;
-    
+
 }
-.p1{
+
+.p1 {
     width: 100%;
     height: 20px;
     color: #94969f;
     display: flex;
     gap: 5px;
-    
+
 }
-.foot-top5{
+
+.foot-top5 {
     width: 100%;
     height: 2545px;
     margin-top: 15px;
-   
+
 }
-.foot-top5 b{
+
+.foot-top5 b {
     width: 100%;
     height: 18px;
     text-transform: uppercase;
@@ -649,11 +715,13 @@ footer{
     font-size: 14px;
     font-weight: 700;
 }
-.foot-top5 p{
+
+.foot-top5 p {
     font-size: 14px;
     color: #94969f;
 }
-.foot-top5 div{
+
+.foot-top5 div {
     margin-top: 50px;
     width: 100%;
     height: 18px;
@@ -662,7 +730,8 @@ footer{
     font-size: 14px;
     font-weight: 700;
 }
-.foot-top5 ol{
+
+.foot-top5 ol {
     width: 100%;
     height: 502px;
     margin-top: 50px;
@@ -670,18 +739,20 @@ footer{
     flex-direction: column;
     gap: 20px;
 }
-.foot-top5 ol li{
+
+.foot-top5 ol li {
     margin-left: 50px;
     width: 990px;
     color: #94969f;
-    font-size:14px ;
+    font-size: 14px;
 }
 
-.foot-top5 p{
+.foot-top5 p {
     margin-top: 10px;
 
 }
-li strong{
+
+li strong {
     width: 130px;
     font-size: 14px;
     color: #535766;
@@ -689,7 +760,8 @@ li strong{
 
 
 }
-li> a{
+
+li>a {
     color: #696b79;
     font-size: 14px;
     font-weight: normal;
@@ -697,22 +769,22 @@ li> a{
 }
 
 
-.foot-top5 .insider{
-margin-top: 50px;
-width: 100%;
-height: 18px;
-color: #535766;
-font-size: 14px;
-text-transform: capitalize;
-font-weight: 700;
-display: flex;
-flex-direction: column;
-gap: 5px;
+.foot-top5 .insider {
+    margin-top: 50px;
+    width: 100%;
+    height: 18px;
+    color: #535766;
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 
 }
 
 
-.insider ul{
+.insider ul {
     width: 100%;
     height: 50px;
     color: #696b79;
@@ -720,11 +792,12 @@ gap: 5px;
     font-size: 14px;
     font-weight: normal;
 
-    
+
 }
-ul li{
+
+ul li {
     margin-left: 45px;
     color: #94969f;
-   
+
 }
 
