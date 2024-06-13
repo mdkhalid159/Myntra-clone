@@ -89,6 +89,7 @@ header {
 
 nav {
     position: relative;
+    
 
 }
 
@@ -196,20 +197,46 @@ nav {
 }
 
 
+.Mens-pages:hover{
+    border-bottom: 3px solid #ff3f6c;
+}
+.Womens-pages:hover{
+    border-bottom: 3px solid  #fb56c1;
+
+}
+.Kids-pages:hover{
+    border-bottom: 3px solid #f26a10;
+}
+.Home-pages:hover{
+    border-bottom: 3px solid  #f2c210;
+}
+.Beauty-pages:hover{
+    border-bottom: 3px solid  #0db7af;
+}
+.Studio-pages:hover{
+     border-bottom: 3px solid #ff3f6c;
+}
+  
+
+
 .Womens-pages #color>a {
     color: #fb56c1;
+    
 }
 
 .Kids-pages #Kids-color>a {
-    color: #f26a10
+    color: #f26a10;
+   
 }
 
 .Home-pages #color>a {
     color: #f2c210;
+    
 }
 
 .Beauty-pages #color a {
     color: #0db7af;
+    
 }
 
 
